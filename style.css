@@ -1,0 +1,118 @@
+body {
+    background: #02010c;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    margin: 0px;
+
+}
+
+h3 {
+    font-family: "Yeseva One ", serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+header,
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 8%;
+}
+
+.blue {
+    color: rgb(14, 207, 175);
+}
+
+.fa-linkedin,
+.fa-instagram,
+.fa-github,
+.fa-circle-half-stroke {
+ color: aliceblue;
+}
+
+h1,
+p,
+div {
+    padding-left: 75px;
+
+}
+
+p {
+    color: #9a9dad;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+}
+
+#rubrique {
+    color: #f0f1f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rubrique p {
+    color: #f0f1f3;
+    margin: 10px;
+    padding: 5px 20px;
+}
+
+.kiko {
+    background: rgb(22, 163, 133);
+    padding: 5px 20px;
+}
+
+div i {
+    display: grid;
+    justify-content: center;
+
+}
+
+footer p {
+    color: #9a9dad;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+@media (min-width:768px)and (max-width:1024px) {
+    .Images {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1px;
+        width: 80%;
+        margin: auto;
+        justify-items: center;
+
+    }
+
+    .Images img {
+        width: 100%;
+    }
+}
+@media (min-width:320px)and (max-width:500px) {
+    .Images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1px;
+        margin: auto;
+        width: auto;
+        justify-items: center;
+
+    }
+    .Images img {
+        width: 100%;
+    }
+   header  {
+    flex-direction: column;
+   
+}
+}
+
+
+  
+    
